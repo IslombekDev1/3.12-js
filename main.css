@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Inter;
+}
+
+.container {
+  max-width: 1202px;
+  padding: 23px 119px 0 119px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #4499fe;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 44px;
+  color: #fff;
+}
+
+.form {
+  margin: 0 auto 47px;
+}
+
+#menu-input1,
+#menu-input2,
+#inp3,
+#food-chef,
+#inp5 {
+  padding: 19.5px 99px 19.5px 17px;
+  border: none;
+  border-radius: 10px;
+  background: #e9e9e9;
+}
+
+#menu-input2 {
+  margin: 0 28px 32px;
+}
+
+#inp5 {
+  width: 611px;
+  margin-left: 28px;
+  padding-right: 0;
+}
+
+.addBtn {
+  position: absolute;
+  top: 17.1%;
+  margin-left: 94px;
+  border: none;
+  color: #fff;
+  padding: 9px 33px;
+  background-color: #1de755;
+}
+
+.addBtn:hover {
+  cursor: progress;
+  opacity: 0.8;
+  box-shadow: 0 0 10px 10px;
+}
+
+.menuBox {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 42px;
+  align-items: center;
+  padding: 26px 40px 26px 31px;
+  border-radius: 25px;
+}
+
+.btnDate {
+  display: none;
+  width: 180px;
+  height: 43px;
+  margin-left: auto;
+  color: white;
+  border: none;
+  background-color: #f5d00d;
+}
+
+.btnDate:hover {
+  cursor: progress;
+  box-shadow:0px 0px 12px 7px #1de755;
+  background-color: #1de75691;
+}
+
+.list-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
